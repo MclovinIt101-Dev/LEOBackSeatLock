@@ -19,6 +19,11 @@ setInterval(() => {
   }
 }, 0);
 
+/**
+ * Displays a notification with the given text.
+ *
+ * @param {string} text - The text to be displayed in the notification.
+ */
 function ShowNotification(text) {
   SetNotificationTextEntry("STRING");
   AddTextComponentString(text);
